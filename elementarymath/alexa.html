@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+	<head>
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<title>Elementary Math for Alexa</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css"  href="../css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="../fonts/font-awesome/css/font-awesome.css">
+		<link href="https://fonts.googleapis.com/css?family=Allura|Roboto" rel="stylesheet">
+		<link rel="stylesheet" href="alexa.css">
+		
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-46708336-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-46708336-1');
+		</script>
+	</head>
+	<body>
+		<header class="navbar-fixed-top">
+			<div class="container text-center">
+				<h1>Elementary Math</h1>
+				<h3>Alexa Skill by <a href='../index.html'>Daniel Tofan</a></h3>
+			</div>
+		</header>
+
+		<section class="timeline">
+			<div class="container">
+				
+				<!-- YOU -->
+				<div class="timeline-item">
+					<div class="timeline-img"></div>
+
+					<div class="timeline-content timeline-card js--fadeInLeft">
+						<div class="timeline-img-header">
+							<h2>
+								<span class="alexa">Alexa</span>, start <span class="elementary-math">Elementary Math</span>
+							</h2>
+						</div>
+						<div class="user user-you"></div>
+						<p>
+							When you use the skill for the first time, just start Elementary Math and let Alexa guide you through the practice session.
+						</p>
+					</div>
+				</div>
+
+				<!-- ALEXA -->
+				<div class="timeline-item">
+					<div class="timeline-img"></div>
+
+					<div class="timeline-content timeline-card js--fadeInRight">
+						<div class="timeline-img-header">
+							<h2>
+								Welcome to Elementary math!
+								I can help with addition, subtraction, multiplication, and division.
+								What would you like to practice today?
+							</h2>
+						</div>
+						<div class="user user-alexa"></div>
+						<p>
+							<span class="alexa">Alexa</span> will keep the session open and listen to your answer.
+						</p>
+						<blockquote>
+							You will know this because the blue circle will stay lit on your <em>Echo</em> device.
+						</blockquote>
+					</div>
+				</div>
+
+				<!-- YOU -->
+				<div class="timeline-item">
+					<div class="timeline-img"></div>
+
+					<div class="timeline-content timeline-card js--fadeInLeft">
+						<div class="timeline-img-header">
+							<h2>Practice <em><b>multiplication</b></em></h2>
+						</div>
+						<div class="user user-you"></div>
+						
+						<p>
+							You can practice one of the four math questions types. You can say one of the four words directly, or you could say: 
+							<em>Let's practice subtraction</em>, or <em>Test me on addition</em>, or <em>Give me division tests</em>.
+						</p>
+						<blockquote>
+							<span class="alexa">Alexa</span> will also understand what you mean if you say <em>plus</em>, <em>minus</em>, <em>times</em>, or <em>divided by</em>.
+						</blockquote>
+					</div>
+				</div>
+
+				<!-- ALEXA -->
+				<div class="timeline-item">
+					<div class="timeline-img"></div>
+
+					<div class="timeline-content timeline-card js--fadeInRight">
+						<div class="timeline-img-header">
+							<h2>
+								Alright, I will give you 5 questions on multiplication. <br><br>
+								<b>Question 1:</b> What is 8 &times; 4 ?
+							</h2>
+						</div>
+						<div class="user user-alexa"></div>
+						<p>
+							<span class="alexa">Alexa</span> will keep the session open and listen to your answer.
+						</p>
+						<!--<a class="btn-more" href="javascript:void(0)">More</a>-->
+					</div>
+				</div>
+
+				<!-- YOU -->
+				<div class="timeline-item">
+					<div class="timeline-img"></div>
+
+					<div class="timeline-content timeline-card js--fadeInLeft">
+						<div class="timeline-img-header">
+							<h2>32</h2>
+						</div>
+						<div class="user user-you"></div>
+						<p>
+							You can say the number representing your answer directly. You can also say <em>It is 32</em>, or <em>I think it is 32</em>, 
+							or <em>My answer is 32</em>.
+						</p>
+						<blockquote>
+							Speak your answer clearly and sufficiently loud. <span class="alexa">Alexa</span> may sometimes understand a different number and mark your answer incorrectly.
+						</blockquote>
+					</div>
+				</div>
+
+				<!-- ALEXA -->
+				<div class="timeline-item">
+					<div class="timeline-img"></div>
+
+					<div class="timeline-content timeline-card js--fadeInRight">
+						<div class="timeline-img-header">
+							<h2>
+								You answered 32. That is correct! <br><br>
+								<b>Question 2:</b> What is 7 &times; 9 ?
+							</h2>
+						</div>
+						<div class="user user-alexa"></div>
+						<p>
+							<span class="alexa">Alexa</span> will keep the session open and listen to your answer.
+						</p>
+						<blockquote>
+							Your score is now 1..
+						</blockquote>
+					</div>
+				</div>
+
+				<!-- YOU -->
+				<div class="timeline-item">
+
+					<div class="timeline-img"></div>
+
+					<div class="timeline-content timeline-card js--fadeInLeft">
+						<div class="timeline-img-header">
+							<h2>My answer is 54</h2>
+						</div>
+						<div class="user user-you"></div>
+						<p>
+							Let's see what happens if you answer incorrectly...
+						</p>
+					</div>
+				</div>
+
+				<!-- ALEXA -->
+				<div class="timeline-item">
+					<div class="timeline-img"></div>
+
+					<div class="timeline-content timeline-card js--fadeInRight">
+						<div class="timeline-img-header">
+							<h2>
+								You answered 54. I'm sorry, but the correct answer is 63. <br><br>
+								<b>Question 3:</b> What is 12 &times; 15 ?
+							</h2>
+						</div>
+						<div class="user user-alexa"></div>
+						<p>
+							<span class="alexa">Alexa</span> will keep the session open and listen to your answer.
+						</p>
+						<blockquote>
+							Your score is still 1..
+						</blockquote>
+					</div>
+				</div>
+
+				<!-- YOU -->
+				<div class="timeline-item">
+					<div class="timeline-img"></div>
+
+					<div class="timeline-content timeline-card js--fadeInLeft">
+						<div class="timeline-img-header">
+							<h2></h2>
+						</div>
+						<div class="user user-you"></div>
+						<p>
+							Let's see what happens if you say nothing
+						</p>
+						<blockquote>
+							<span class="alexa">Alexa</span> wants to hear something back really soon, that's her thing. 
+							If you need more time to think about the answer, don't say anything yet...
+						</blockquote>
+					</div>
+				</div>
+				
+				<!-- ALEXA -->
+				<div class="timeline-item">
+					<div class="timeline-img"></div>
+
+					<div class="timeline-content timeline-card js--fadeInRight">
+						<div class="timeline-img-header">
+							<h2>
+								I'm sorry, can you say again? The question was:  <br><br>
+								What is 12 &times; 15 ?
+							</h2>
+						</div>
+						<div class="user user-alexa"></div>
+						<p>
+							<span class="alexa">Alexa</span> will keep the session open and listen to your answer.
+						</p>
+						<blockquote>
+							Your score is still 1..
+						</blockquote>
+					</div>
+				</div>
+				
+				<!-- YOU -->
+				<div class="timeline-item">
+					<div class="timeline-img"></div>
+
+					<div class="timeline-content timeline-card js--fadeInLeft">
+						<div class="timeline-img-header">
+							<h2></h2>
+						</div>
+						<div class="user user-you"></div>
+						<p>
+							You still don't know, but you want to think about the answer. Keep quiet...
+						</p>
+						<blockquote>
+							<span class="alexa">Alexa</span> will wait a few more seconds..
+						</blockquote>
+					</div>
+				</div>
+				
+				<!-- ALEXA -->
+				<div class="timeline-item">
+					<div class="timeline-img nolight"></div>
+
+					<div class="timeline-content timeline-card js--fadeInRight">
+						<div class="timeline-img-header header-small">
+							
+						</div>
+						<div class="user user-alexa"></div>
+						<p>
+							<span class="alexa">Alexa</span> will close the session and stop listening for an answer. 
+							You have an opportunity to wake her up when you're ready.
+						</p>
+						<blockquote>
+							Your score is still 1..
+						</blockquote>
+					</div>
+				</div>
+				
+				<!-- YOU -->
+				<div class="timeline-item">
+					<div class="timeline-img"></div>
+
+					<div class="timeline-content timeline-card js--fadeInLeft">
+						<div class="timeline-img-header">
+							<h2><span class="alexa">Alexa</span>, tell <span class="elementary-math">Elementary Math</span> that my answer is 180</h2>
+						</div>
+						<div class="user user-you"></div>
+						<p>
+							You can wake <span class="alexa">Alexa</span> later and provide your answer. 
+							Remember, you must use the skill name (<span class="elementary-math">Elementary Math</span> ) in a sentence, so that 
+							<span class="alexa">Alexa</span> will know how to interpret your answer.
+						</p>
+						<blockquote>
+							If you forget to say <em>tell Elementary Math</em>, <span class="alexa">Alexa</span> will probably not know what to do with your answer.
+							In that case, say your full sentence as indicated on this card.
+						</blockquote>
+					</div>
+				</div>
+				
+				<!-- ALEXA -->
+				<div class="timeline-item">
+					<div class="timeline-img"></div>
+
+					<div class="timeline-content timeline-card js--fadeInRight">
+						<div class="timeline-img-header">
+							<h2>
+								You answered 180. That is correct! <br><br>
+								<b>Question 4:</b> What is 11 &times; 4 ?
+							</h2>
+						</div>
+						<div class="user user-alexa"></div>
+						<p>
+							<span class="alexa">Alexa</span> will keep the session open and listen to your answer.
+						</p>
+						<blockquote>
+							Your score is now 2..
+						</blockquote>
+					</div>
+				</div>
+				
+				<!-- YOU -->
+				<div class="timeline-item">
+					<div class="timeline-img"></div>
+
+					<div class="timeline-content timeline-card js--fadeInLeft">
+						<div class="timeline-img-header">
+							<h2>Can you repeat please?</h2>
+						</div>
+						<div class="user user-you"></div>
+						<p>
+							If you didn't understand the question or want to get more time, ask <span class="alexa">Alexa</span> to repeat the question.
+						</p>
+						<blockquote>
+							<span class="alexa">Alexa</span> will repeat the question as many times as you need, but the question will always be the same until you give an answer or give up!
+						</blockquote>
+					</div>
+				</div>
+				
+				<!-- ALEXA -->
+				<div class="timeline-item">
+					<div class="timeline-img"></div>
+
+					<div class="timeline-content timeline-card js--fadeInRight">
+						<div class="timeline-img-header">
+							<h2>
+								No problem! Last question was:  <br><br>
+								What is 11 &times; 4 ?
+							</h2>
+						</div>
+						<div class="user user-alexa"></div>
+						<p>
+							<span class="alexa">Alexa</span> will keep the session open and listen to your answer.
+						</p>
+						<blockquote>
+							Your score is still 2..
+						</blockquote>
+					</div>
+				</div>
+				
+				<!-- YOU -->
+				<div class="timeline-item">
+					<div class="timeline-img"></div>
+
+					<div class="timeline-content timeline-card js--fadeInLeft">
+						<div class="timeline-img-header">
+							<h2>I'm not sure</h2>
+						</div>
+						<div class="user user-you"></div>
+						<p>
+							If you still can't figure out the answer and want to give up, you can also say <em>I can't do this</em>, or <em>This is too hard</em>, 
+							or <em>I have no idea</em>, or <em>Don't know</em>.
+						</p>
+						<blockquote>
+							<span class="alexa">Alexa</span> will move on to the next question and mark this as incorrect.
+						</blockquote>
+					</div>
+				</div>
+				
+				<!-- ALEXA -->
+				<div class="timeline-item">
+					<div class="timeline-img"></div>
+
+					<div class="timeline-content timeline-card js--fadeInRight">
+						<div class="timeline-img-header">
+							<h2>
+								I'm sorry, but the correct answer is 44. <br><br>
+								<b>Question 5:</b> What is 5 &times; 10 ?
+							</h2>
+						</div>
+						<div class="user user-alexa"></div>
+						<p>
+							<span class="alexa">Alexa</span> will keep the session open and listen to your answer.
+						</p>
+						<blockquote>
+							Your score is still 2..
+						</blockquote>
+					</div>
+				</div>
+				
+				<!-- YOU -->
+				<div class="timeline-item">
+					<div class="timeline-img"></div>
+
+					<div class="timeline-content timeline-card js--fadeInLeft">
+						<div class="timeline-img-header">
+							<h2>I think it's 50</h2>
+						</div>
+						<div class="user user-you"></div>
+						<p>
+							This one was easy enough, huh?
+						</p>
+						<blockquote>
+							The difficulty of the questions can actually be set for each session. You'll see how below.
+						</blockquote>
+					</div>
+				</div>
+				
+				<!-- ALEXA -->
+				<div class="timeline-item">
+					<div class="timeline-img nolight"></div>
+
+					<div class="timeline-content timeline-card js--fadeInRight">
+						<div class="timeline-img-header">
+							<h2>
+								You answered 50. That is correct! <br><br>
+								Good job, you finished this practice session on <em>multiplication</em> with a score of 3!
+							</h2>
+						</div>
+						<div class="user user-alexa"></div>
+						<p>
+							<span class="alexa">Alexa</span> has now ended the session. You can practice more math later!
+						</p>
+						<blockquote>
+							Your score was 3 out of 5.
+						</blockquote>
+					</div>
+				</div>
+				
+				<!-- YOU -->
+				<div class="timeline-item">
+					<div class="timeline-img"></div>
+
+					<div class="timeline-content timeline-card js--fadeInLeft">
+						<div class="timeline-img-header">
+							<h2><span class="alexa">Alexa</span>, ask <span class="elementary-math">Elementary Math</span> to set level to medium</h2>
+						</div>
+						<div class="user user-you"></div>
+						<p>
+							The default difficulty level is <b>easy</b>. That is for beginners. As the child makes progress, the difficulty can be increased.
+						</p>
+						<blockquote>
+							The difficulty can be set to <em>easy</em>, <em>medium</em>, or <em>hard</em>.
+							When you increase the difficulty level, the range of the numbers generated is simply higher.
+						</blockquote>
+					</div>
+				</div>
+				
+				<!-- ALEXA -->
+				<div class="timeline-item">
+					<div class="timeline-img nolight"></div>
+
+					<div class="timeline-content timeline-card js--fadeInRight">
+						<div class="timeline-img-header">
+							<h2>
+								Difficulty level set to medium.
+							</h2>
+						</div>
+						<div class="user user-alexa"></div>
+						<p>
+							<span class="alexa">Alexa</span> has now ended the session.
+						</p>
+					</div>
+				</div>
+				
+				<!-- YOU -->
+				<div class="timeline-item">
+					<div class="timeline-img"></div>
+
+					<div class="timeline-content timeline-card js--fadeInLeft">
+						<div class="timeline-img-header">
+							<h2><span class="alexa">Alexa</span>, ask <span class="elementary-math">Elementary Math</span> what was my last score</h2>
+						</div>
+						<div class="user user-you"></div>
+						<p>
+							If you want to know how you did last time you practice, <span class="alexa">Alexa</span> will remind you your last score.
+						</p>
+						<blockquote>
+							You can ask this question even if you have not completed a session.
+						</blockquote>
+					</div>
+				</div>
+				
+				<!-- ALEXA -->
+				<div class="timeline-item">
+					<div class="timeline-img nolight"></div>
+
+					<div class="timeline-content timeline-card js--fadeInRight">
+						<div class="timeline-img-header">
+							<h2>
+								Your last score was 3 out of 5.
+							</h2>
+						</div>
+						<div class="user user-alexa"></div>
+						<p>
+							<span class="alexa">Alexa</span> has now ended the session.
+						</p>
+						<blockquote>
+							If you were in the middle of a practice session and you quit or timed out, <span class="alexa">Alexa</span> will say your <em>current</em> score.
+						</blockquote>
+					</div>
+				</div>
+				
+				<!-- YOU -->
+				<div class="timeline-item">
+					<div class="timeline-img"></div>
+
+					<div class="timeline-content timeline-card js--fadeInLeft">
+						<div class="timeline-img-header">
+							<h2><span class="alexa">Alexa</span>, ask <span class="elementary-math">Elementary Math</span> what is the level</h2>
+						</div>
+						<div class="user user-you"></div>
+						<p>
+							If you want to know how you did last time you practiced, <span class="alexa">Alexa</span> will remind you your last score.
+						</p>
+						<blockquote>
+							You can ask this question even if you have not completed a session.
+						</blockquote>
+					</div>
+				</div>
+				
+				<!-- ALEXA -->
+				<div class="timeline-item">
+					<div class="timeline-img nolight"></div>
+
+					<div class="timeline-content timeline-card js--fadeInRight">
+						<div class="timeline-img-header">
+							<h2>
+								The current difficulty level is medium.
+							</h2>
+						</div>
+						<div class="user user-alexa"></div>
+						<p>
+							<span class="alexa">Alexa</span> has now ended the session.
+						</p>
+						<blockquote>
+							Time to increase to <b>hard</b> soon...
+						</blockquote>
+					</div>
+				</div>
+				
+				<!-- YOU -->
+				<div class="timeline-item">
+					<div class="timeline-img"></div>
+					<div class="timeline-content timeline-card js--fadeInLeft">
+						<div class="timeline-img-header">
+							<h2><span class="alexa">Alexa</span>, start <span class="elementary-math">Elementary Math</span></h2>
+						</div>
+						<div class="user user-you"></div>
+						<p>
+							When you want to practice math again, just open the skill and it will guide you.
+						</p>
+					</div>
+				</div>
+				
+				<!-- ALEXA -->
+				<div class="timeline-item">
+					<div class="timeline-img"></div>
+
+					<div class="timeline-content timeline-card js--fadeInRight">
+						<div class="timeline-img-header">
+							<h2>
+								Alright!
+								Last time you worked on multiplication and you got a score of 3. <br><br>
+								What would you like to practice now?
+							</h2>
+						</div>
+						<div class="user user-alexa"></div>
+						<p>
+							<span class="alexa">Alexa</span> will keep the session open and listen to your answer.
+						</p>
+					</div>
+				</div>
+				
+				<!-- YOU -->
+				<div class="timeline-item">
+					<div class="timeline-img"></div>
+
+					<div class="timeline-content timeline-card js--fadeInLeft">
+						<div class="timeline-img-header">
+							<h2>Never mind</h2>
+						</div>
+						<div class="user user-you"></div>
+						<p>
+							It's OK to change your mind. After all, too much math and no play is not a lot of fun.
+						</p>
+						<blockquote>
+							You can also say <em>Nothing</em>, or <em>Cancel</em>.
+						</blockquote>
+					</div>
+				</div>
+				
+				<!-- ALEXA -->
+				<div class="timeline-item">
+					<div class="timeline-img nolight"></div>
+
+					<div class="timeline-content timeline-card js--fadeInRight">
+						<div class="timeline-img-header">
+							<h2>
+								Thanks for practicing elementary math, I will hear you next time!
+							</h2>
+						</div>
+						<div class="user user-alexa"></div>
+						<p>
+							<span class="alexa">Alexa</span> has now ended the session.
+						</p>
+						<blockquote>
+							Yep, <span class="alexa">Alexa</span> won't actually <b>see</b> you, but she will definitely <b>hear</b> you!
+						</blockquote>
+					</div>
+				</div>
+
+			</div>
+		</section>
+		
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js"></script>
+		<script src="alexa.js"></script>
+	</body>
+</html>

@@ -1,0 +1,73 @@
+@media screen and (max-width: 768px){
+	.content {
+		padding: 40% 0 0;
+	}
+	
+	#a-few-words-container {
+		padding-left: 50px;
+	}
+	
+	.ptable-description {
+		margin-top: 25px;
+	}
+}
+
+@media screen and (max-width: 603px){
+	#tf-menu.navbar-default {
+		background-color: rgba(0, 0, 0, 0.79);
+	}
+	#tf-works li.pull-right, #tf-works li.pull-left {
+		margin-top: 10px;
+		float: none !important;
+		text-align: center;
+		display: block;
+	}
+	label{
+		float: none !important
+	}
+	.pull-left.fnav,
+	.pull-right.fnav {
+		float: none !important;
+		text-align: center;
+	}
+
+	.hover-bg .hover-text {
+		padding: 12% 10%;
+	}
+}
+
+@media screen and (max-width: 480px){
+	.section-title-left {
+		display: none;
+	}
+	
+	#a-few-words-container {
+		padding-left: 30px;
+	}
+	
+	h1 {
+		font-size: 3rem;
+	}
+	
+	h2 {
+		font-size: 2.6rem;
+	}
+}
+
+@media screen and (max-width: 400px){
+	.elementBox {min-width: 300px !important; margin: 0 !important;}
+}
+
+@media screen and (max-width: 360px){
+	.hover-bg .hover-text {
+		padding: 22% 10%;
+	}
+	
+	h1 {
+		font-size: 2rem;
+	}
+	
+	h2 {
+		font-size: 1.8rem;
+	}
+}
