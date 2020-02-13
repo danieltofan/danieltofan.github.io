@@ -1,6 +1,7 @@
 @font-face {
     font-family: PinkFloyd;
-    src: url(../fonts/fonts/pink-floyd/floyd.ttf);
+	src: url(../fonts/fonts/pink-floyd/floyd.ttf);
+	font-display: swap;
 }
 
 body, html{
@@ -318,6 +319,10 @@ ul.about-list li span{
 #tf-library .service:hover>i.fa{
 	background: #FCAC45;
 	color: #ffffff;
+}
+
+.eku-lib-text {
+	color: #7A2E44;
 }
 
 /* Alexa Section */
