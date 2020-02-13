@@ -191,7 +191,7 @@ ul.about-list li span{
 
 /* Chemistry Section */
 #tf-chemistry{
-	background: url(../img/ptable-rain-optimized.jpg);
+	background: url(../img/ptable-rain.webp);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -322,7 +322,7 @@ ul.about-list li span{
 
 /* Alexa Section */
 #tf-alexa{
-	background: url(../img/echo-large-blur.png);
+	background: url(../img/echo-large-blur.webp);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
