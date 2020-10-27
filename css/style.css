@@ -289,7 +289,7 @@ ul.about-list li span{
 	padding: 80px 0;
 }
 
-.eku-image
+.vts-image
 {
 	opacity: 0.9;
 }
@@ -319,8 +319,8 @@ ul.about-list li span{
 	color: #ffffff;
 }
 
-.eku-lib-text {
-	color: #7A2E44;
+.vts-text {
+	color: #00da99;
 }
 
 /* Alexa Section */
