@@ -298,7 +298,6 @@ CONTACT
 }
 .contact-item .title
 {
-  width: 80%;
   width: calc(100% - 55px);
   font-size: 1.4em;
   font-weight: 700;
@@ -310,7 +309,6 @@ CONTACT
 }
 .contact-item .description
 {
-  width: 80%;
   width: calc(100% - 55px);
   font-size: 1.2em;
   opacity: 0.7;
@@ -365,7 +363,6 @@ div.skills h4, div.box h4
 .skills-legend div
 {
   width: 25%;
-  display: inline-block;
   font-size: 1.2em;
   color: #a9a9a9;
   float: left;
@@ -485,11 +482,6 @@ MEDIA
     width: 85%;
   }
   
-  #experience .description
-  {
-	  
-  }
-  
   #languages-second, #interests-second
   {
 	  display: none;
@@ -514,21 +506,12 @@ MEDIA
 }
 @media (max-width: 599px)
 {
-  .mensa-logo
-  {
-	 
-  }
 }
 @media screen and (min-width: 768px) 
 {
   #education .description
   {
     width: 85%;
-  }
-  
-  #experience .description
-  {
-	  
   }
 }
 @media screen and (min-width: 992px) 
@@ -537,22 +520,12 @@ MEDIA
   {
     width: 87%;
   }
-  
-  #experience .description
-  {
-	  
-  }
 }
 @media screen and (min-width: 1200px) 
 {
   #education .description
   {
     width: 90%;
-  }
-  
-  #experience .description
-  {
-	  
   }
   
   #languages-second, #interests-second, .mensa-logo
